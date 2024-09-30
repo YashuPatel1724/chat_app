@@ -10,7 +10,7 @@
 
 </div>
 
-<h3 align="center">👉 Chat Images👈</h3>
+<h3 align="center">👉 Chat App Images👈</h3>
 
 <div align="center">
   <img height="550"  src="https://github.com/user-attachments/assets/0c97db65-a922-42a4-b0b8-ab69c540e9bc" />
