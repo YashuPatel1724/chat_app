@@ -1,13 +1,12 @@
 <h1 align="center">👉 Chat App 👈</h1>
 
+# Description
+ChatApp is a modern messaging application designed as a clone of WhatsApp, providing users with a seamless and feature-rich chatting experience. Built using Flutter and powered by Firebase, ChatApp incorporates Firebase Authentication for secure user login and registration, including phone number authentication for easy access. Real-time messaging is enabled by Firestore, ensuring that conversations are updated instantly, while Firebase FireStorage allows users to easily share images, videos, and documents securely. The app features both one-on-one and group chats, with familiar functionalities like typing indicators, message read receipts, and online status updates. Users can customize their experience with the option to switch between dark and light themes, which dynamically adapt based on user preferences or system settings. The app's user-friendly interface provides an experience similar to WhatsApp, making navigation intuitive for all users. Additionally, ChatApp supports profile customization, search functionality, and push notifications, all designed to enhance user interaction and convenience
+
 <h3 align="center"> Chat App Video </h3>
 <div align="center">
  <video src="https://github.com/user-attachments/assets/6cc9cb0b-d5d7-4bf2-b80f-2c35fc761ebc"> 
 </video>
-
-
-
-
 </div>
 
 <h3 align="center">👉 Chat App Images👈</h3>
