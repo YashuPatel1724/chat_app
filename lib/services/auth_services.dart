@@ -41,4 +41,17 @@ class AuthServices
       }
     return user;
   }
+
+  Future<String> forgotPassword(String email)
+  async {
+    try
+        {
+          await _firebaseAuth.sendPasswordResetEmail(email: email);
+          return 'Success';
+        }
+        catch (e)
+    {
+      return e.toString();
+    }
+  }
 }

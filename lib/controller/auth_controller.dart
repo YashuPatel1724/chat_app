@@ -10,5 +10,22 @@ class AuthController extends GetxController
   var txtPhone = TextEditingController();
   var txtImage = TextEditingController();
   var txtToken = TextEditingController();
-  GlobalKey<FormState> formkey = GlobalKey();
+  GlobalKey<FormState> signInformkey = GlobalKey();
+  GlobalKey<FormState> signUpformkey = GlobalKey();
+
+  RxBool  hidePassword = true.obs;
+
+  void passwordHide()
+  {
+    // hidePassword.value != hidePassword.value;
+    if(hidePassword.value)
+      {
+        hidePassword.value = false;
+      }
+    else
+      {
+        hidePassword.value = true;
+      }
+
+  }
 }

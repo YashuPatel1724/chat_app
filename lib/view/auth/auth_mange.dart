@@ -1,5 +1,4 @@
 import 'package:chat_app/services/auth_services.dart';
-import 'package:chat_app/view/componets/signIn.dart';
 import 'package:chat_app/view/componets/signIn_page.dart';
 import 'package:chat_app/view/screen/home_page.dart';
 import 'package:flutter/material.dart';
